@@ -79,6 +79,8 @@ header h4 {
 }
 
 header img {
+  display: block;
+  margin: 0 auto;
   border-radius: 10px;
   box-shadow: var(--shadow-box);
 }
