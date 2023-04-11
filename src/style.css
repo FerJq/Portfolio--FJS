@@ -29,10 +29,29 @@ body {
   box-shadow: 1px 1px 20px rgb(93, 93, 93);
 }
 
+.specifications-container {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+}
+
+.specifications-container h4 {
+  font-size: 30px;
+}
+
 .index-info-container {
   padding: 0% 5%;
 }
-
+.list {
+  text-align: start;
+  list-style: none;
+}
+.list i {
+  font-size: 80px;
+}
+.list span {
+  font-size: 30px;
+  font-weight: 500;
+}
 .container {
   background-color: var(--background-color);
   box-shadow: 1px 1px 20px rgb(67, 67, 67);
