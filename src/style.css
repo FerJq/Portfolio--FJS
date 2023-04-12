@@ -45,8 +45,11 @@ body {
   text-align: start;
   list-style: none;
 }
+.list li {
+  margin: 15px auto;
+}
 .list i {
-  font-size: 80px;
+  font-size: 50px;
 }
 .list span {
   font-size: 30px;
@@ -172,6 +175,28 @@ footer a:hover {
 
 .projects-container hr {
   color: white;
+}
+
+.projects-shecodes {
+  color: white;
+  background-color: rgb(61, 61, 61);
+  padding: 2%;
+  box-shadow: var(--shadow-box);
+}
+
+.projects-shecodes button {
+  text-decoration: none;
+  color: white;
+  background-color: var(--primary-color);
+  font-weight: 500;
+  border: 10px solid var(--primary-color);
+  border-radius: 5px;
+  box-shadow: var(--shadow-box);
+  transition: transform 0.3s, background-color 0.3s, color 0.3s;
+}
+
+.projects-shecodes button:hover {
+  transform: translateY(-5px);
 }
 
 .img-page {
