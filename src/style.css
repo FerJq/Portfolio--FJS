@@ -53,6 +53,7 @@ body {
   font-weight: 500;
 }
 .container {
+  margin: 0 auto;
   background-color: var(--background-color);
   box-shadow: 1px 1px 20px rgb(67, 67, 67);
 }
@@ -122,11 +123,8 @@ footer a:hover {
 }
 
 /*Project Page*/
-
 .box-container {
-  text-align: center;
-  padding: 0% 5%;
-  color: white;
+  max-width: 1000px;
 }
 
 .container-about {
@@ -159,10 +157,21 @@ footer a:hover {
 }
 
 .projects-container {
-  padding: 0% 5%;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
   background-color: var(--background-color);
   border: 3px solid pink;
   box-shadow: 1px 1px 20px pink;
+}
+
+.projects-container img {
+  max-width: 400px;
+  max-height: 300px;
+}
+
+.projects-container hr {
+  color: white;
 }
 
 .img-page {
@@ -311,6 +320,12 @@ form button:hover {
 }
 
 /*About*/
+.box-container-about {
+  max-width: 1000px;
+  display: block;
+  margin: 0 auto;
+}
+
 .about-container {
   margin: 0 auto;
   padding: 0 auto;
@@ -346,7 +361,7 @@ form button:hover {
 }
 
 .about-images {
-  width: 600px;
+  max-width: 450px;
   box-shadow: var(--shadow-box);
   border-radius: 20px;
   background-color: pink;
@@ -381,5 +396,13 @@ section img {
 
   .rows-about h3 {
     text-align: center;
+  }
+
+  .projects-container img {
+    max-width: 300px;
+  }
+
+  .main--container {
+    padding: 2%;
   }
 }
