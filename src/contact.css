@@ -1,0 +1,118 @@
+/*Contact*/
+
+video {
+  box-shadow: 1px 1px 20px rgb(82, 82, 82);
+}
+
+.margin-data {
+  margin: 0 auto;
+}
+.main--container {
+  padding: 0% 10%;
+}
+
+.be-in-touch {
+  margin: 0;
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px rgb(22, 22, 22);
+}
+.contact-main-container {
+  padding: 0% 2%;
+  background-color: var(--background-color);
+  border: 3px solid pink;
+  box-shadow: 1px 1px 20px pink;
+}
+
+.icons-container {
+  display: flex;
+  justify-content: center;
+}
+
+.icons {
+  background-color: var(--primary-color);
+  border-radius: 120px;
+  color: pink;
+  font-size: 15px;
+  padding: 5px 10px;
+  margin: 0 20px;
+  box-shadow: var(--shadow-box);
+}
+
+.icons:hover {
+  transition: all 200ms ease-in-out;
+  background-color: pink;
+}
+
+.icons-container a:hover {
+  color: black;
+  transition: 200ms all ease-in-out;
+}
+
+.icons-main-container .icons {
+  background-color: var(--primary-color);
+  border-radius: 120px;
+  color: pink;
+  font-size: 15px;
+  padding: 5px 10px;
+  margin: 0 20px;
+  box-shadow: var(--shadow-box);
+}
+
+.icons-main-container .icons:hover {
+  background-color: pink;
+  color: rgb(0, 0, 0);
+  transition: 200ms all ease-in-out;
+}
+
+.info-contact {
+  margin: 0 auto;
+  background-color: rgb(63, 63, 63);
+  border-radius: 20px;
+  box-shadow: var(--shadow-box);
+}
+
+.info-contact a {
+  color: aquamarine;
+  font-size: 22px;
+}
+
+.info-contact a:hover {
+  transition: all 200ms ease-in-out;
+  color: rgb(255, 255, 255);
+}
+
+.info-contact h3 {
+  color: var(--primary-color);
+}
+
+.info-contact h4 {
+  color: white;
+}
+
+.form-container {
+  padding: 0% 20%;
+}
+
+form button {
+  text-decoration: none;
+  color: white;
+  background-color: var(--primary-color);
+  font-weight: 500;
+  border: 10px solid var(--primary-color);
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgb(56, 56, 56);
+  transition: transform 0.3s, background-color 0.3s, color 0.3s;
+  width: 200px;
+  margin: 10px auto;
+}
+
+form button:hover {
+  transform: translateY(-10px);
+}
+
+@media (max-width: 700px) {
+  .main--container {
+    padding: 2%;
+  }
+}

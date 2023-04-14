@@ -1,0 +1,78 @@
+.projects-container {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  background-color: var(--background-color);
+  border: 3px solid pink;
+  box-shadow: 1px 1px 20px pink;
+}
+
+.projects-container img {
+  max-width: 400px;
+  max-height: 300px;
+}
+
+.projects-container hr {
+  color: white;
+}
+
+.projects-shecodes {
+  color: white;
+  background-color: rgb(61, 61, 61);
+  padding: 2%;
+  box-shadow: var(--shadow-box);
+}
+
+.projects-shecodes button {
+  text-decoration: none;
+  color: white;
+  background-color: var(--primary-color);
+  font-weight: 500;
+  border: 10px solid var(--primary-color);
+  border-radius: 5px;
+  box-shadow: var(--shadow-box);
+  transition: transform 0.3s, background-color 0.3s, color 0.3s;
+}
+
+.projects-shecodes button:hover {
+  transform: translateY(-5px);
+}
+
+.img-page {
+  margin: 0;
+}
+
+.img-page button {
+  text-decoration: none;
+  color: white;
+  background-color: var(--primary-color);
+  font-weight: 500;
+  border: 10px solid var(--primary-color);
+  border-radius: 5px;
+  box-shadow: var(--shadow-box);
+  transition: transform 0.3s, background-color 0.3s, color 0.3s;
+}
+
+.img-page button:hover {
+  transform: translateY(-10px);
+}
+
+.img-page img {
+  border-radius: 20px;
+  box-shadow: var(--shadow-box);
+}
+
+.img-page img:hover {
+  filter: brightness(1.2);
+  transition: filter 1s;
+}
+
+.img-page h6 {
+  color: aliceblue;
+}
+
+@media (max-width: 700px) {
+  .projects-container img {
+    max-width: 300px;
+  }
+}
