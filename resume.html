@@ -56,6 +56,9 @@
             <a class="nav-link" title="Contact Page" href="resume.html"
               >Resume</a
             >
+            <a class="nav-link" title="Contact Page" href="galery.html"
+              >Galery</a
+            >
           </div>
         </div>
       </div>
@@ -67,10 +70,16 @@
       </header>
       <br />
       <main>
-        <img id="resumeImg" src="./document/Fernanda J. Santiago.png" />
+        <img id="resumeImg" src="./document/FjSResume.png" />
       </main>
       <br />
-      <button id="printresume" onclick="window.print()">🖨️ P R I N T 🖨️</button>
+      <div class="printer">
+        <a
+          href="#"
+          onclick="window.open('/document/FjSResume.pdf', '_blank', 'fullscreen=yes'); return false;"
+          >🖨️P R I N T🖨️</a
+        >
+      </div>
       <footer class="text-center">
         <hr class="text-white" />
         <h5 class="text-white">
@@ -99,9 +108,9 @@
           </div>
         </div>
       </footer>
+      <br />
     </div>
     <!--JavaScript-->
-    <script src="src/resume.js"></script>
     <script
       src="https://kit.fontawesome.com/12e117d926.js"
       crossorigin="anonymous"

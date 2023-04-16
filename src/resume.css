@@ -31,3 +31,20 @@ button {
 button:hover {
   transform: translateY(-5px);
 }
+
+.printer a {
+  text-decoration: none;
+  color: white;
+  background-color: var(--primary-color);
+  font-weight: 500;
+  border: 10px solid var(--primary-color);
+  border-radius: 5px;
+  box-shadow: var(--shadow-box);
+  transition: transform 0.3s, background-color 0.3s, color 0.3s;
+}
+
+.printer a:hover {
+  transition: all 200ms ease-in-out;
+  background-color: rgb(143, 12, 56);
+  border: 10px solid rgb(143, 12, 56);
+}
