@@ -1,7 +1,7 @@
 :root {
-  --primary-color: rgb(255, 100, 155);
+  --primary-color: rgb(169, 4, 4);
   --shadow-box: 2px 2px 20px rgb(22, 22, 22);
-  --background-color: #2b3035;
+  --background-color: #020202;
   --gradiant-transition: linear-gradient(
     110.5deg,
     rgba(248, 196, 249, 0.66) 22.8%,
@@ -11,10 +11,10 @@
 
 body {
   transition: all 200ms ease-in-out;
-  background: radial-gradient(
-    circle at 10% 20%,
-    rgb(248, 219, 219) 0%,
-    rgb(229, 248, 250) 90%
+  background: linear-gradient(
+    109.6deg,
+    rgb(0, 0, 0) 11.2%,
+    rgb(58, 0, 0) 100.3%
   );
   background-position: left;
   background-size: 250%;
@@ -31,15 +31,15 @@ nav .nav-link {
 }
 
 nav .nav-link:hover {
-  color: pink;
+  color: rgb(255, 0, 43);
 }
 
 nav .navbar-toggler {
   background-color: var(--primary-color);
 }
 
-header h4 {
-  color: rgb(255, 100, 155);
+header h5 {
+  color: var(--primary-color);
 }
 
 header img {
@@ -76,6 +76,10 @@ header button:hover {
   transform: translateY(-10px);
 }
 
+footer {
+  border: 1px solid red;
+}
+
 footer a {
   color: var(--primary-color);
 }
@@ -85,13 +89,38 @@ footer a:hover {
   color: pink;
 }
 
-.index-video {
-  box-shadow: 1px 1px 20px rgb(93, 93, 93);
+.header-bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)),
+    url("/images/bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 70%;
+
+  color: white;
+  padding: 150px 0;
+  font-weight: 100;
+  line-height: 50px;
+  border: 1px dotted red;
+}
+
+.bg-hone {
+  margin: 0px 0px 0px 90px;
+  font-size: 80px;
+}
+.bg-htwo {
+  margin: 0px 0px 0px 90px;
+  font-size: 40px;
+  color: red;
+}
+
+.header-bg-container {
+  padding: 1%;
+  background-color: black;
 }
 
 .specifications-container {
   background-color: var(--primary-color);
-  color: var(--background-color);
+  color: grey;
 }
 
 .specifications-container h4 {
@@ -118,7 +147,7 @@ footer a:hover {
 .container {
   margin: 0 auto;
   background-color: var(--background-color);
-  box-shadow: 1px 1px 20px rgb(67, 67, 67);
+  box-shadow: 1px 1px 20px rgb(170, 0, 0);
 }
 .headingbar {
   background-color: rgb(255, 255, 255);
@@ -152,7 +181,7 @@ footer a:hover {
 
 .main-title h1 {
   transition: all 200ms ease-in-out;
-  text-shadow: 15px 5px 20px var(--primary-color);
+  text-shadow: 15px 5px 20px red;
 }
 
 .main-title h1:hover {
@@ -193,6 +222,7 @@ footer a:hover {
   padding: 5px 10px;
   margin: 0 20px;
   box-shadow: var(--shadow-box);
+  transition: 200ms all ease-in-out;
 }
 
 .icons-main-container .icons:hover {

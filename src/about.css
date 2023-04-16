@@ -9,8 +9,8 @@
   padding: 0 auto;
 
   background-color: var(--background-color);
-  border: 3px solid pink;
-  box-shadow: 1px 1px 20px pink;
+  border: 3px solid rgb(255, 0, 0);
+  box-shadow: 1px 1px 20px rgb(35, 12, 12);
 }
 .header-image {
   filter: contrast(120%);
@@ -32,8 +32,8 @@
 }
 
 .rows-about p {
-  color: var(--background-color);
-  background: pink;
+  color: white;
+  background: rgb(134, 23, 15);
   padding: 5px;
   border-radius: 12px;
 }
@@ -42,7 +42,7 @@
   max-width: 450px;
   box-shadow: var(--shadow-box);
   border-radius: 20px;
-  background-color: pink;
+  background: rgb(134, 23, 15);
   transition: all 200ms ease-in-out;
 }
 
@@ -52,8 +52,8 @@
 }
 
 section p {
-  color: var(--background-color);
-  background: pink;
+  color: grey;
+  background: rgb(134, 23, 15);
   padding: 5px;
   border-radius: 12px;
 }
@@ -62,7 +62,6 @@ section img {
   box-shadow: var(--shadow-box);
   border-radius: 5px;
 }
-
 
 @media (max-width: 700px) {
   .about-images {
