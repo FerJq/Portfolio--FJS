@@ -13,65 +13,64 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
     />
+    <link rel="stylesheet" href="aos-by-red.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="src/style.css" />
     <link rel="stylesheet" href="src/projects.css" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
   </head>
   <body>
     <!--NavBar-->
-    <nav
-      class="navbar navbar-expand-lg bg-body-tertiary fs-4 container-fluid img-fluid"
-      data-bs-theme="dark"
-    >
-      <div class="container-fluid">
-        <a class="navbar-brand fs-2" title="Home Page" href="index.html"
-          >FjS.</a
-        >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a
-              class="nav-link active"
-              aria-current="page"
-              title="HomePage"
-              href="index.html"
-              >Home</a
-            >
-            <a class="nav-link" title="Projects Page" href="projects.html"
-              >Projects</a
-            >
-            <a class="nav-link" title="About Page" href="about.html">About</a>
-            <a class="nav-link" title="Contact Page" href="contact.html"
-              >Contact</a
-            >
-            <a class="nav-link" title="Contact Page" href="resume.html"
-              >Resume</a
-            >
-            <a class="nav-link" title="Contact Page" href="galery.html"
-              >Galery</a
-            >
-          </div>
-        </div>
-      </div>
-    </nav>
     <!--Header-->
     <div class="box-container container-fluid">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a
+            class="navbar-brand fs-4 text-white"
+            title="Home Page"
+            href="index.html"
+            >FjS.</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a
+                class="nav-link"
+                aria-current="page"
+                title="HomePage"
+                href="index.html"
+                >Home</a
+              >
+              <a class="nav-link" title="Projects Page" href="projects.html"
+                >Projects</a
+              >
+              <a class="nav-link" title="About Page" href="about.html">About</a>
+              <a class="nav-link" title="Contact Page" href="resume.html"
+                >Resume</a
+              >
+              <a class="nav-link" title="Contact Page" href="galery.html"
+                >Galery</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
       <!--Box End-->
       <div class="projects-container">
         <div class="header-bg-container">
-          <div class="header-bg">
-            <p class="bg-hone">Fernanda J.</p>
-            <p class="bg-htwo">Santiago</p>
+          <div class="header-bg text-start">
+            <p class="bg-hone text-decoration-">PROJECTS</p>
+            <p class="bg-htwo p-1">FjS.</p>
           </div>
         </div>
         <div class="projects-shecodes">
@@ -84,7 +83,7 @@
         </div>
         <br />
         <div class="img-page row container-fluid">
-          <div class="col-md-6">
+          <div class="col-md-6" data-aos="fade-right">
             <br />
             <img class="img-fluid" src="images/Untitled-7-pasteis.png" alt="" />
             <h2 class="text-white p-3">Pasteis de Nata</h2>
@@ -95,7 +94,7 @@
             </button>
             <h6 class="p-2">Coded with HTML, CSS</h6>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6" data-aos="fade-left">
             <br />
             <img
               class="img-fluid"
@@ -113,7 +112,7 @@
         </div>
         <hr />
         <div class="img-page row container-fluid">
-          <div class="col-md-6">
+          <div class="col-md-6" data-aos="fade-right">
             <br />
             <img class="img-fluid" src="images/tempjavascript-5.png" alt="" />
             <h2 class="text-white p-3">Weather App</h2>
@@ -124,7 +123,7 @@
             </button>
             <h6 class="p-2">Coded with HTML, CSS(Responsive) and JS</h6>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6" data-aos="fade-left">
             <br />
             <img class="img-fluid" src="images/CLOCK-2.png" alt="" />
             <h2 class="text-white p-3">Majestic Time Clock</h2>
@@ -139,7 +138,7 @@
         <hr />
 
         <div class="img-page row container-fluid">
-          <div class="col-md-6">
+          <div class="col-md-6" data-aos="fade-right">
             <br />
             <img
               class="img-fluid"
@@ -154,7 +153,7 @@
             </button>
             <h6 class="p-2">Coded with HTML, CSS(Responsive) and JS</h6>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6" data-aos="fade-left">
             <br />
             <img class="img-fluid" src="images/coffeeee-3.png" alt="" />
             <h2 class="text-white p-3">Coffee For Life!</h2>
@@ -168,7 +167,7 @@
         </div>
         <hr />
         <div class="img-page row container-fluid">
-          <div class="col-md-6">
+          <div class="col-md-6" data-aos="fade-right">
             <br />
             <img class="img-fluid" src="images/UTEEEMPREACT-4.png" alt="" />
             <h2 class="text-white p-3">React Weather App</h2>
@@ -179,7 +178,7 @@
             </button>
             <h6 class="p-2">Coded with CSS(Responsive) and React</h6>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6" data-aos="fade-left">
             <br />
             <img class="img-fluid" src="images/DICTIONARY-6.png" alt="" />
             <h2 class="text-white p-3">Madeleine Dictionary</h2>
@@ -234,5 +233,12 @@
       src="https://kit.fontawesome.com/12e117d926.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 3000,
+        once: true,
+      });
+    </script>
   </body>
 </html>

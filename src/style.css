@@ -1,7 +1,7 @@
 :root {
   --primary-color: rgb(169, 4, 4);
   --shadow-box: 2px 2px 20px rgb(22, 22, 22);
-  --background-color: #020202;
+  --background-color: #161616;
   --gradiant-transition: linear-gradient(
     110.5deg,
     rgba(248, 196, 249, 0.66) 22.8%,
@@ -28,6 +28,11 @@ body {
 nav .nav-link {
   color: var(--primary-color);
   text-decoration: none;
+}
+
+nav {
+  box-shadow: #020202;
+  background: #161616;
 }
 
 nav .nav-link:hover {
@@ -100,7 +105,6 @@ footer a:hover {
   padding: 150px 0;
   font-weight: 100;
   line-height: 50px;
-  border: 1px dotted red;
 }
 
 .bg-hone {
@@ -119,7 +123,9 @@ footer a:hover {
 }
 
 .specifications-container {
-  background-color: var(--primary-color);
+  padding: 1%;
+  margin: 0 auto;
+  background-color: rgb(103, 3, 3);
   color: grey;
 }
 
@@ -145,6 +151,8 @@ footer a:hover {
   font-weight: 500;
 }
 .container {
+  max-width: 1000px;
+  padding: 0;
   margin: 0 auto;
   background-color: var(--background-color);
   box-shadow: 1px 1px 20px rgb(170, 0, 0);
@@ -153,25 +161,6 @@ footer a:hover {
   background-color: rgb(255, 255, 255);
   padding: 0.5%;
   text-align: center;
-}
-
-/*Project Page*/
-.box-container {
-  max-width: 1000px;
-}
-
-.container-about {
-  background-color: var(--background-color);
-  box-shadow: 1px 1px 5px rgb(67, 67, 67);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  box-shadow: var(--shadow-box);
-}
-
-.container-about:hover {
-  filter: brightness(200%);
-  transition: filter 3s;
 }
 
 .main-title {

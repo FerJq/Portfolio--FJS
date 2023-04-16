@@ -1,10 +1,17 @@
+.box-container {
+  text-align: left;
+  padding: 0;
+  margin: 20px auto;
+  border: 0.5px solid rgba(98, 0, 16, 0.276);
+  box-shadow: 1px 1px 20px rgb(103, 11, 11);
+  max-width: 1000px;
+}
+
 .projects-container {
   margin: 0 auto;
   display: block;
   text-align: center;
-  background-color: var(--background-color);
-  border: 3px solid pink;
-  box-shadow: 1px 1px 20px pink;
+  background-color: #0a0909;
 }
 
 .projects-container img {
@@ -18,7 +25,7 @@
 
 .projects-shecodes {
   color: white;
-  background-color: rgb(61, 61, 61);
+  background-color: #161616;
   padding: 2%;
   box-shadow: var(--shadow-box);
 }
