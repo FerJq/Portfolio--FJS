@@ -1,4 +1,12 @@
-
+.navbar-container {
+  background-color: var(--background-color);
+  position: sticky;
+  max-width: 100%;
+  width: 100%;
+  top: 0;
+  margin: 0;
+  text-align: center;
+}
 
 img {
   max-width: 200px;
