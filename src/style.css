@@ -142,6 +142,10 @@ footer a:hover {
   font-size: 30px;
 }
 
+.specifications-container li {
+  padding: 5px;
+}
+
 .index-info-container {
   padding: 0% 5%;
 }
