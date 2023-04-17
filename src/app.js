@@ -9,5 +9,3 @@ function background_theme() {
 }
 
 setInterval(background_theme, 3000);
-
-
