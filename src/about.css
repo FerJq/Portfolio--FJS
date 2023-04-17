@@ -62,6 +62,21 @@ section p {
   border-radius: 12px;
 }
 
+button {
+  text-decoration: none;
+  color: white;
+  background-color: var(--primary-color);
+  font-weight: 500;
+  border: 10px solid var(--primary-color);
+  border-radius: 5px;
+  box-shadow: var(--shadow-box);
+  transition: transform 0.3s, background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+  transform: translateY(-10px);
+}
+
 section img {
   box-shadow: var(--shadow-box);
   border-radius: 5px;

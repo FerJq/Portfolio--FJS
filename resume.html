@@ -13,6 +13,8 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
     />
+    <link rel="stylesheet" href="aos-by-red.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="src/style.css" />
     <link rel="stylesheet" href="src/resume.css" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
@@ -69,8 +71,8 @@
         </div>
       </div>
       <div class="printer text-white">
-        <br />
-        Click here to access all my resume PDF! 👉
+        <p>Click here to access all my resume PDF!</p>
+        👉
         <a
           href="#"
           onclick="window.open('/document/FjSResume.pdf', '_blank', 'fullscreen=yes'); return false;"
@@ -79,7 +81,7 @@
       </div>
       <hr class="text-danger" />
       <div class="info-resume">
-        <div class="resume-list">
+        <div class="resume-list" data-aos="fade-left">
           <h2>PROFILE</h2>
           <p>
             I am Junior Front-End Developer, based in New York, looking for
@@ -88,7 +90,7 @@
             while I'm coding!
           </p>
         </div>
-        <div class="resume-list">
+        <div class="resume-list" data-aos="fade-right">
           <h2 class="text-center">S K I L L S</h2>
           <ul class="text-center">
             <li>React</li>
@@ -160,5 +162,12 @@
       src="https://kit.fontawesome.com/12e117d926.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 3000,
+        once: true,
+      });
+    </script>
   </body>
 </html>
