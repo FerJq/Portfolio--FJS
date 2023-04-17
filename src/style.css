@@ -104,8 +104,8 @@ footer a:hover {
 }
 
 .header-bg {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("/images/bg.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+    url("/images/bggg.png");
   background-repeat: no-repeat;
   background-position: right;
   background-size: 70%;
@@ -127,7 +127,7 @@ footer a:hover {
 }
 
 .header-bg-container {
-  padding: 1%;
+  padding: 0;
   background-color: black;
 }
 
