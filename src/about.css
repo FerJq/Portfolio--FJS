@@ -1,16 +1,18 @@
 .box-container-about {
-  max-width: 1000px;
+  background-color: var(--background-color);
+  text-align: start;
   display: block;
+  margin: 20px auto;
+  max-width: 1000px;
+  box-shadow: 5px 5px 20px rgb(92, 0, 15);
+}
+.about-container {
+  padding: 0;
   margin: 0 auto;
 }
 
-.about-container {
-  margin: 0 auto;
-  padding: 0 auto;
-
-  background-color: var(--background-color);
-  border: 3px solid rgb(255, 0, 0);
-  box-shadow: 1px 1px 20px rgb(35, 12, 12);
+.header-bg-container {
+  padding: 0;
 }
 .header-image {
   filter: contrast(120%);
@@ -32,6 +34,7 @@
 }
 
 .rows-about p {
+  font-weight: 100;
   color: white;
   background: rgb(134, 23, 15);
   padding: 5px;
@@ -52,7 +55,8 @@
 }
 
 section p {
-  color: grey;
+  font-weight: 100;
+  color: rgb(255, 255, 255);
   background: rgb(134, 23, 15);
   padding: 5px;
   border-radius: 12px;

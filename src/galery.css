@@ -1,15 +1,17 @@
 img {
-  max-width: 250px;
+  max-width: 200px;
   text-align: center;
   display: block;
   margin: 0 auto;
 }
 
 .container-galery {
-  background-color: black;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 1%;
+  background-color: var(--background-color);
+  text-align: start;
+  display: block;
+  margin: 20px auto;
+  max-width: 1000px;
+  box-shadow: 5px 5px 20px rgb(92, 0, 15);
 }
 
 .images-container {
@@ -20,4 +22,15 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
+}
+
+@media (max-width: 700px) {
+  .images-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  li {
+    font-size: 5px;
+  }
 }
